@@ -13,13 +13,13 @@ const inputSettingsArray = document.getElementsByClassName('input_settings')
 const checkboxKeyboard = document.getElementById('keyboard')
 let root = document.querySelector(':root')
 
-let gridSize = 4
+let gridSize = 5
 let caseGrid
 let nbPlays
 let isWon = false
 let areCasesActives = true
 let isGearActive = true
-let shufflesAmount = 5
+let shufflesAmount = 20
 let hasFocus = [0, 0]
 let controls = ['z', 'q', 's', 'd']
 
