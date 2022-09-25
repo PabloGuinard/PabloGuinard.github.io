@@ -278,7 +278,7 @@ input[type=checkbox]:after{
         height: auto;   
     }
 
-    #mobile_hidden{
-        display: none;
+    .mobile_hidden{
+        display: none !important; 
     }
 }
