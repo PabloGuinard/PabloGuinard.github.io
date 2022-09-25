@@ -273,4 +273,8 @@ input[type=checkbox]:after{
     #form_settings div button{
         padding: 5px 20px;
     }
+
+    .popup{
+        height: auto;
+    }
 }
