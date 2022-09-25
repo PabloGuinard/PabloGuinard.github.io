@@ -275,6 +275,10 @@ input[type=checkbox]:after{
     }
 
     .popup{
-        height: auto;
+        height: auto;   
+    }
+
+    .mobile_hidden{
+        display: none;
     }
 }
