@@ -249,8 +249,9 @@ input[type=checkbox]:after{
 
 @media (max-width: 767px) {
     .button_container, button, #form_settings div button, #form_settings div input, #form_settings, h2, .label_input{
-        font-size: 1rem;
+        font-size: .7rem;
     }
+
     section{
         width: calc(80vw + 1px);
         height: 80vw;
@@ -267,5 +268,9 @@ input[type=checkbox]:after{
         border: white solid 3px;
         width: calc((80vw - (5px * (var(--gridSize) - 1))) / var(--gridSize) - 6px);
         height: calc((80vw - (5px * (var(--gridSize) - 1))) / var(--gridSize) - 6px);
+    }
+
+    #form_settings div button{
+        padding: 5px 20px;
     }
 }
