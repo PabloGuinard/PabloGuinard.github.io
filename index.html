@@ -1,73 +1,252 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lights</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Pablo Guinard CV</title>
 </head>
+
 <body>
-    <p id="playsCount"></p>
-    <i class="fa fa-gear" id="gear"></i>
     <section>
-        <div class="case"></div>
-        <div class="case"></div>
-        <div class="case"></div>
-	<div class="case"></div>
-	<div class="case"></div>
-	<div class="case"></div>
-	<div class="case"></div>
-        <div class="case"></div>
-        <div class="case"></div>
-        <div class="case"></div>
-        <div class="case"></div>
-        <div class="case"></div>
-        <div class="case"></div>
-        <div class="case"></div>
-        <div class="case"></div>
-        <div class="case"></div>
-        <div class="case"></div>
-        <div class="case"></div>
-        <div class="case"></div>
-        <div class="case"></div>
-        <div class="case"></div>
-        <div class="case"></div>
-        <div class="case"></div>
-        <div class="case"></div>
-        <div class="case"></div>
-        <div id="button_container" class="not_displayed button_container">
-            <p>You won !</p>
-            <p id="score"></p>
-            <button id="button">Replay</button>
+        <h4 class="hidden_desktop">IT student in Epitech Pre-Msc</h4>
+        <h4 class="hidden_desktop">19 years old</h4>
+        <a href="pictures/"></a>
+        <div class="light"></div>
+        <div class="background_card margin_top">
+            <h1>Pablo GUINARD</h1>
         </div>
+        <div id="links" class="background_card">
+            <a href="pictures/CV_Pablo_Guinard.pdf" target="_blank"><p class="link">Check my CV !</p></a>
+            <a href="lights-game/index.html" target="_blank"><p class="link">Check my web game !</p></a>
+        </div>
+        <div class="shadow phone_hidden hidden_tablet">
+            <h4>IT student in Epitech Pre-Msc</h4>
+            <h4>19 years old</h4>
+        </div>
+        <img src="pictures/backrgound_blue" alt="blue backgriund image" class="background_pic phone_hidden">
+        <img class="tech_pic" id="tech_pic_1" src="pictures/tech.png" alt="nice pic">
+        <img class="tech_pic tech_2" src="pictures/tech.png" alt="nice pic">
     </section>
-    <div id="popup" class="not_displayed popup">
-        <h2>Settings</h2>
-        <form id="form_settings">
-            <div class="label_input">
-                <label for="grid_size">Grid size</label>
-                <input class="input_settings" type="number" id="grid_size" min="3" max="10" required="required">
-            </div>
-            <div class="label_input">
-                <label for="nb_shuffle">Shuffles amount</label>
-                <input class="input_settings" type="number" id="nb_shuffles" min="1" max="50" required="required">
-            </div>
-            <div class="label_input mobile_hidden">
-                <p id="qwerty">AWSD</p>
-                <div id="checkbox_keyboard">
-                    <input type="checkbox" id="keyboard" checked>
-                    <label for="keyboard" id="checkbox_input"></label>
+    <section class="section_blue">
+        <div class="light white"></div>
+        <h2>{ Graduation }</h2>
+        <div class="background_card">
+            <div id="diplomes">
+                <div class="point_text">
+                    <div id="square_1" class="square"></div>
+                    <p><span>Bac S</span><br>2017 - 2020</p>
                 </div>
-                <p id="azerty">ZQSD</p>
+                <div class="point_text">
+                    <div id="square_2" class="square"></div>
+                    <p><span>DUT Info</span><br>2020 - 2022</p>
+                </div>
+                <div class="point_text">
+                    <div id="square_3" class="square"></div>
+                    <p><span>Epitech - Pre MSc</span><br>2022 - Now</p>
+                </div>
+                <div id="fil_diplomes"></div>
             </div>
-            <div>
-                <button type="reset" id="cancel_settings">Cancel</button>
-                <button id="save_settings">Save</button>
+        </div>
+        <img class="tech_pic" src="pictures/tech.png" alt="nice pic">
+        <img class="tech_pic tech_2" src="pictures/tech.png" alt="nice pic">
+    </section>
+    <section>
+        <div class="light"></div>
+        <h2>{ Skills }</h2>
+        <div class="arrow_group hidden_tablet hidden_desktop">
+            <div class="arrow_long"></div>
+            <div class="arrow_tip"></div>
+        </div>
+        <div class="cards_group">
+            <div class="cards_group_2">
+                <div class="background_card">
+                    <h3>I.T.</h3>
+                    <div class="card_skills">
+                        <div class="chart_legend">
+                            <p>SQL</p>
+                            <p>Web</p>
+                            <p>PHP</p>
+                            <p>C++</p>
+                            <p>Java</p>
+                            <p>JS</p>
+                        </div>
+                        <div class="chart">
+                            <div class="chart_60 chart_item"></div>
+                            <div class="chart_80 chart_item"></div>
+                            <div class="chart_60 chart_item"></div>
+                            <div class="chart_40 chart_item"></div>
+                            <div class="chart_60 chart_item"></div>
+                            <div class="chart_80 chart_item"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="background_card">
+                    <h3>Soft</h3>
+                    <div class="card_skills">
+                        <div class="chart_legend">
+                            <p>Bash</p>
+                            <p>Inkscape</p>
+                            <p>Git</p>
+                            <p>Office</p>
+                        </div>
+                        <div class="chart">
+                            <div class="chart_40 chart_item"></div>
+                            <div class="chart_60 chart_item"></div>
+                            <div class="chart_80 chart_item"></div>
+                            <div class="chart_80 chart_item"></div>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </form>
-    </div>
-    <script src="script.js"></script>
+        </div>
+        <div class="arrow_group second_arrow hidden_tablet hidden_desktop">
+            <div class="arrow_long"></div>
+            <div class="arrow_tip"></div>
+        </div>
+        <img class="tech_pic" src="pictures/tech.png" alt="nice pic">
+        <img class="tech_pic tech_2" src="pictures/tech.png" alt="nice pic">
+    </section>
+    <section class="section_blue">
+        <div class="light white"></div>
+        <h2>{ Network }</h2>
+        <div class="background_card">
+            <div class="logos">
+                <img src="pictures/email.png" alt="Email" class="logo_contact">
+                <a target="_blank" href="mailto:guinardpablo@gmail.com"><p>guinardpablo@gmail.com</p></a>
+                <img src="pictures/phone.png" alt="Phone" class="logo_contact">
+                <p>06 68 39 32 21</p>
+                <img src="pictures/github.png" alt="Github" class="logo_contact">
+                <a target="_blank" href="https://github.com/PabloGuinard"><p>github.com/pabloguinard</p></a>
+                <img src="pictures/location.png" alt="Address" class="logo_contact">
+                <p>4 bis rue Elie Rochette LYON</p>
+            </div>
+        </div>
+        <img class="tech_pic" src="pictures/tech.png" alt="nice pic">
+        <img class="tech_pic tech_2" src="pictures/tech.png" alt="nice pic">
+    </section>
+    <section>
+        <div class="light"></div>
+        <h2>{ Projects }</h2>
+        <div class="arrow_group hidden_tablet hidden_desktop">
+            <div class="arrow_long"></div>
+            <div class="arrow_tip"></div>
+        </div>
+        <div class="cards_group">
+            <div class="cards_group_2 width_300">
+                <div class="background_card">
+                    <h3>App Rehab</h3>
+                    <p class="project_description">
+                        A mobile app designed with several features like a blog,
+                        a glossary and the possibility to send comments to the blog
+                        author. With the app was designed a web dashboard, allowing to
+                        manage the app content and to read comments. This project was
+                        ordered by CPA (Centre Psychothérapique de l'Ain).<br>
+                        Developped a beta version in a team of 2 and finished solo.
+                    </p>
+                    <div class="languages">
+                        <p>PHP</p>
+                        <p>React Native</p>
+                        <p>SQL</p>
+                    </div>
+                </div>
+                <div class="background_card">
+                    <h3>Cards game</h3>
+                    <p class="project_description">
+                        A N-players card game working with a server-client model
+                        (playable via Wifi) with a lobby and a matchmaking system.
+                        Developped in a team of 2 during 3 days.
+                    </p>
+                    <div class="languages">
+                        <p>C++</p>
+                        <p>StdSocket</p>
+                    </div>
+                </div>
+                <div class="background_card">
+                    <h3>Smart Pillbox</h3>
+                    <p class="project_description">
+                        A 3D printed pillbox concepted for non autonomous patients
+                        which you can fill in and schedule to bip and and drop a
+                        certain amount of pills at a certain moment. It had a
+                        notification system (by email) and an emergency button.<br>
+                        Developped in a team of 3 during one single week.
+                    </p>
+                    <div class="languages">
+                        <p>Java</p>
+                        <p>RasPi</p>
+                        <p>IoT</p>
+                    </div>
+                </div>
+                <div class="background_card">
+                    <h3>Blablacar Finder</h3>
+                    <p class="project_description">
+                        An Android app which helps you find Blablacar parkings around
+                        you. It uses OpenDataSoft's API.<br>
+                        Developped solo during a single week.
+                    </p>
+                    <div class="languages">
+                        <p>Android</p>
+                        <p>OpenDataSoft</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="arrow_group second_arrow hidden_desktop">
+            <div class="arrow_long"></div>
+            <div class="arrow_tip"></div>
+        </div>
+
+        <img class="tech_pic" src="pictures/tech.png" alt="nice pic">
+        <img class="tech_pic tech_2" src="pictures/tech.png" alt="nice pic">
+    </section>
+    <section class="section_blue">
+        <div class="light white"></div>
+        <h2>{ Contact }</h2>
+        <div class="background_card">
+            <form>
+                <div class="label_input">
+                    <label for="last_name">Last name</label>
+                    <input type="text" id="last_name">
+                </div>
+                <div class="label_input">
+                    <label for="first_name">First name</label>
+                    <input type="text" id="first_name">
+                </div>
+                <div class="label_input">
+                    <label for="email">Email</label>
+                    <input type="email" id="email">
+                </div>
+                <div class="label_input">
+                    <label for="object">Object</label>
+                    <input type="text" id="object">
+                </div>
+                <label for="message">Your message</label>
+                <textarea id="message" rows="10"></textarea>
+            </form>
+        </div>
+        <img class="tech_pic" src="pictures/tech.png" alt="nice pic">
+        <img class="tech_pic tech_2" src="pictures/tech.png" alt="nice pic">
+    </section>
+    <section>
+        <div class="light"></div>
+        <h2>{ Hobbies }</h2>
+        <div class="hobbies_container">
+            <div class="background_card hobbies_card">
+                <p>I.T.</p>
+                <img src="pictures/computer.png" alt="Computer" class="logo_hobbies">
+            </div>
+            <div class="background_card hobbies_card">
+                <p>Riding sports</p>
+                <img src="pictures/surf.png" alt="Surf" class="logo_hobbies">
+            </div>
+            <div class="background_card hobbies_card">
+                <p>Music</p>
+                <img src="pictures/headphones.png" alt="Headphone" class="logo_hobbies">
+            </div>
+        </div>
+        <img class="tech_pic" src="pictures/tech.png" alt="nice pic">
+        <img class="tech_pic tech_2" src="pictures/tech.png" alt="nice pic">
+    </section>
 </body>
+
 </html>
