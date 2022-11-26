@@ -173,11 +173,19 @@ span {
     margin-top: 0;
 }
 
+.scroll {
+    overflow-x: auto;
+}
+
 .cards_group_2 {
     display: flex;
     justify-content: space-around;
     width: 200vw;
     padding-bottom: 20px;
+}
+
+.cards_group_projects {
+    width: calc(5 * (70vw + 100px))
 }
 
 .width_300 {
@@ -385,15 +393,15 @@ h2:hover{
     }
 
     .cards_group {
-        overflow-x: scroll;
+        overflow-x: auto;
     }
 
-    .cards_group .background_card {
+    .cards_group .background_card, .cards_group .background_card_projects {
         width: 70vw;
     }
 
     .project_description {
-        overflow-y: scroll;
+        overflow-y: auto;
     }
 
     form {
@@ -414,6 +422,10 @@ h2:hover{
 
     .cards_group_2 {
         width: 100vw;
+    }
+
+    .cards_group_projects {
+        width: calc(5 * (25vw + 100px))
     }
 
     .background_card {
@@ -498,6 +510,10 @@ h2:hover{
 
     .cards_group_2 {
         width: 100vw;
+    }
+
+    .cards_group_projects {
+        width: calc(5 * (35vw + 100px))
     }
 
     h4 {
