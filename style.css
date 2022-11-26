@@ -185,7 +185,7 @@ span {
 }
 
 .cards_group_projects {
-    width: calc(5 * (70vw + 100px))
+    width: calc(6 * (70vw + 100px))
 }
 
 .width_300 {
@@ -425,7 +425,7 @@ h2:hover{
     }
 
     .cards_group_projects {
-        width: calc(5 * (25vw + 100px))
+        width: calc(6 * (25vw + 100px))
     }
 
     .background_card {
@@ -513,7 +513,7 @@ h2:hover{
     }
 
     .cards_group_projects {
-        width: calc(5 * (35vw + 100px))
+        width: calc(6 * (35vw + 100px))
     }
 
     h4 {
